@@ -1,0 +1,50 @@
+[
+  // "スペース+e"でファイルツリーにフォーカス
+  {
+    "key": "space e",
+    "command": "workbench.view.explorer",
+    "when": "editorTextFocus"
+  },
+  // バッファ切り替え
+  {
+    "key": "shift+left",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+right",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+c",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorTextFocus"
+  },
+  // vimのキーでファイルツリーを操作
+  {
+    "key": "k",
+    "command": "list.focusUp",
+    "when": "explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "j",
+    "command": "list.focusDown",
+    "when": "explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "h",
+    "command": "list.collapse",
+    "when": "explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "l",
+    "command": "list.expand",
+    "when": "explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "o",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletVisible && !inputFocus"
+  }
+]

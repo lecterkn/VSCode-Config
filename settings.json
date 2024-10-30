@@ -1,0 +1,29 @@
+{
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "vim.useSystemClipboard": true,
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "editor.fontFamily": "'Ubuntu Mono', PlemolJP, monospace",
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1.1,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "500",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+  "workbench.activityBar.location": "top",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "files.exclude": {
+    "**/.idea": true
+  },
+  "workbench.colorTheme": "Minimal"
+}
