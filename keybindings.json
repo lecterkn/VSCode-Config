@@ -44,7 +44,7 @@
   },
   {
     "key": "o",
-    "command": "explorer.openToSide",
+    "command": "explorer.openAndPassFocus",
     "when": "explorerViewletVisible && !inputFocus"
   }
 ]
