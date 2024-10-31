@@ -22,5 +22,5 @@
   "files.exclude": {
     "**/.idea": true
   },
-  "workbench.colorTheme": "Minimal"
+  "workbench.colorTheme": "Jetbrains Fleet"
 }

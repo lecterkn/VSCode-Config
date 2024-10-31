@@ -1,7 +1,7 @@
 [
   // "スペース+e"でファイルツリーにフォーカス
   {
-    "key": "space e",
+    "key": "ctrl+n",
     "command": "workbench.view.explorer",
     "when": "editorTextFocus"
   },
@@ -14,11 +14,6 @@
   {
     "key": "shift+right",
     "command": "workbench.action.nextEditor",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+c",
-    "command": "workbench.action.closeActiveEditor",
     "when": "editorTextFocus"
   },
   // vimのキーでファイルツリーを操作
